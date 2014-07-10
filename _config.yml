@@ -1,6 +1,5 @@
 markdown: rdiscount
-permalink: /:title.html
-destination: ../../public/blog
+permalink: /blog/:title.html
 auto: true
 exclude:
   - Rakefile

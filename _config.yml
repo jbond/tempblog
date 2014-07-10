@@ -1,6 +1,5 @@
 markdown: rdiscount
 permalink: /blog/:title.html
-auto: true
 exclude:
   - Rakefile
   - Gemfile

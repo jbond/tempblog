@@ -1,0 +1,14 @@
+---
+layout: default
+title: Blog Posts
+meta_description: The SupplyBetter blog covers site updates, sourcing in general, and 3D printing.
+---
+
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="/blog{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
